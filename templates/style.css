@@ -21,11 +21,15 @@ h1,
 h2,
 h3,
 h4 {
-  margin: 2vw 0;
   width: 100%;
   text-align: center;
-  font-weight: 100;
-  line-height: 1.25;
+  line-height: calc(2 * 4vw * 1.50);   
+}
+
+h5,
+h6 {
+  line-height: calc(1 * 4vw * 1.50);  
+
 }
 
 h1,
@@ -35,10 +39,12 @@ h4,
 h5,
 h6 {
   font-family: 'Berkshire Swash', cursive;
-  margin: 1vw 0;
+  margin: 0 0;
   padding: 0;
-  color: #444;
+  color: #000;
+  font-weight: 100;  
 }
+
 
 img {
   border: 0;
@@ -121,13 +127,6 @@ code {
   line-height: calc(4vw * 1.50);
   font-kerning: normal;
   text-rendering: geometricPrecision;
-}
-
-h3 {
-  font-family: 'Berkshire Swash', cursive;
-  line-height: 1.2em;
-  color: black;
-  font-size: 200%;
 }
 
 ol {
